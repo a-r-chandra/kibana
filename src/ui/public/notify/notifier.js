@@ -623,7 +623,7 @@ function createGroupLogger(type, opts) {
 
     if (consoleGroups) {
       if (status) {
-        console.log(status);
+        //console.log(status);
         console.groupEnd();
       } else {
         if (opts.open) {
@@ -662,4 +662,3 @@ function createGroupLogger(type, opts) {
     return ret;
   };
 }
-

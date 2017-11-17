@@ -33,7 +33,7 @@ function TableVisTypeProvider(Private) {
   return VisFactory.createAngularVisualization({
     type: 'table',
     name: 'table',
-    title: 'Data Table',
+    title: 'Data Tables',
     image,
     description: 'Display values in a table',
     category: CATEGORY.DATA,
